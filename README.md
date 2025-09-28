@@ -21,6 +21,10 @@ E como referência neste repo do Github
 ### Base de dados: 
 A Base de dados foi retirada do [Kaggle](https://www.kaggle.com/) e pode ser encontrada nesse [link](https://www.kaggle.com/datasets/mosapabdelghany/medical-insurance-cost-dataset).
 
+Trata - se de uma base de dados de despesas médicas com seguro de plano de saúde nos Estados Unidos da América.
+
+A Base possui 1338 entradas com 7 colunas de características incluindo a coluna alvo "charges" (custos).
+
 ## Proposta Inicial
 Entender a base de dados avaliar duas hipóteses principais:
 * Possibilidade de aplicar um modelo de regressão preciso para a base, que contém poucas variáveis.
@@ -30,7 +34,11 @@ Entender a base de dados avaliar duas hipóteses principais:
 Uso de técnicas de tratamento de dados, gráficos, estatística descritiva, treinamento e aplicação de modelos de Machine Learning para inferir as hipóteses na base de dados.
 
 ## Análise, Conclusão e Próximos Passos
+Como observado ao longo do projeto, entendemos que a quantidade de informação é pouca para prever com relativa precisão os custos médicos. 
 
+Olhando a correlação dos dados fica um tanto claro que faltam variáveis que caracterize melhor o problema encontrado.
+
+Como próximos passos poderíamos entender se a acertividade é de extrema importância para o problema, pois caso o valor final de acerto do modelo não seja necessário, poderiamos transformar em um modelo de classificação configurando alguns *ranges* de custo o que provavelmente daria mais performance e provavelmente resultados bem mais precisos.
 
 
 # Autores
